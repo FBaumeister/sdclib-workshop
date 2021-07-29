@@ -1,0 +1,16 @@
+# Note:
+# Only use one gitignore file per project to
+# keep track of all ignored files in one place.
+
+# external
+# Cloned and built folders
+external/sdclib/
+external/sdclib_build
+
+# Visual Studio
+out/
+build/
+.vs/
+
+# DPWS Explorer
+tools/ws4d/log/
