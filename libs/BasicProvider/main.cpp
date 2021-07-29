@@ -60,7 +60,6 @@ int main()
         auto instance = std::make_shared<SDCLib::SDCInstance>(true);
 
         // Some restrictions
-        instance->setIP6enabled(false);
         if(!instance->bindToDefaultNetworkInterface())
         {
             std::cout << "Failed to bind to default network interface! Exit..." << std::endl;
